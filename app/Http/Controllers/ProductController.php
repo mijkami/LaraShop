@@ -10,21 +10,26 @@ class ProductController extends Controller
     public function index()
     {
         $product = Product::orderBy('id', 'ASC')->get();
-        return view('welcome');
+        return view('welcome', compact('product'));
     }
     public function index1()
     {
-        return view('pages.products1');
+
+        $product = Product::where('typ', '=', 'chats mignons')->get();
+        return view('pages.products1', compact('product'));
     }
 
     public function index2()
     {
-        return view('pages.products2');
+
+        $product = Product::where('typ', '=', 'chats sportifs')->get();
+        return view('pages.products2', compact('product'));
     }
 
     public function index3()
     {
-        return view('pages.products3');
+        $product = Product::where('typ', '=', 'LOLCATS')->get();
+        return view('pages.products3', compact('product'));
     }
 
 }
