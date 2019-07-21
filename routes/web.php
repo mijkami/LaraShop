@@ -19,8 +19,8 @@ Route::get('/', 'ProductController@index')->name('welcome');
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/panier', 'CartController@index')->name('panier');
-Route::get('/produits1', 'ProductsController@index1')->name('products1');
-Route::get('/produits2', 'ProductsController@index2')->name('products2');
-Route::get('/produits3', 'ProductsController@index3')->name('products3');
+Route::get('/cutecats', 'ProductController@index1')->name('cutecats');
+Route::get('/sportscats', 'ProductController@index2')->name('sportscats');
+Route::get('/lolcats', 'ProductController@index3')->name('lolcats');
 
 
