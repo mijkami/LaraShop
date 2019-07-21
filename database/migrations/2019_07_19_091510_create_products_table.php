@@ -18,8 +18,10 @@ class CreateProductsTable extends Migration
             $table->timestamps();
             $table->string('name')->default("CatPic");
             $table->string('typ')->default("LOLCAT");
-            $table->Decimal('price')->default("12");
+            $table->Decimal('price')->default("00");
             $table->TEXT("image_url");
+            $table->Integer("stars")->default(1);
+            $table->CHAR("comment")->default("- Commentaire -");
         });
     }
 
