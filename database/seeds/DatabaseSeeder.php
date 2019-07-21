@@ -20,7 +20,9 @@ class DatabaseSeeder extends Seeder
             $product->name = $faker->lastName;
             $product->typ = 'chats mignons';
             $product->price = rand(12, 35);
-            $product->image_url = $faker->image('images',700,400, 'cats');
+            $product->image_url = $faker->image('public/images',700,400, 'cats');
+            $product->stars = rand(1,5);
+            $product->comment = $faker->text(20);
             $product->save();
         }
 
@@ -29,7 +31,9 @@ class DatabaseSeeder extends Seeder
             $product->name = $faker->lastName;
             $product->typ = 'chats sportifs';
             $product->price = rand(27, 49);
-            $product->image_url = $faker->image('images', 700, 400, 'cats');
+            $product->image_url = $faker->image('public/images', 700, 400, 'cats');
+            $product->stars = rand(1, 5);
+            $product->comment = $faker->text(20);
             $product->save();
         }
 
@@ -38,7 +42,19 @@ class DatabaseSeeder extends Seeder
             $product->name = $faker->lastName;
             $product->typ = 'LOLCATS';
             $product->price = rand(275, 499);
-            $product->image_url = $faker->image('images', 700, 400, 'cats');
+            $product->image_url = $faker->image('public/images', 700, 400, 'cats');
+            $product->stars = rand(1, 5);
+            $product->comment = $faker->text(20);
+            $product->save();
+        }
+
+        $products = Product::all();
+        foreach($products as $product){
+
+            $public = "public/";
+            $longlink = $product->image_url;
+            $shortlink = str_replace($public, "", $longlink);
+            $product->image_url = $shortlink;
             $product->save();
         }
     }
