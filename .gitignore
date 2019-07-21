@@ -1,5 +1,7 @@
 *
 */
+!/images/
+images/*
 !.gitignore
 /node_modules
 /public/hot
