@@ -58,14 +58,14 @@
             echo '<h5>'.$pro->name.'</h5>';
             echo '<p class="card-text">Type : '.$pro->typ.'<br>Commentaire : '.$pro->comment.'</p>';
             echo '</div>';
-            echo '<div class="card-footer justify-content-around">';
+            echo '<div class="card-footer text-center">';
                 if ($pro->stars==1){$a="&#9733; &#9734; &#9734; &#9734; &#9734;";}
                 elseif($pro->stars==2){$a="&#9733; &#9733; &#9734; &#9734; &#9734;";}
                 elseif($pro->stars==3){$a="&#9733; &#9733; &#9733; &#9734; &#9734;";}
                 elseif($pro->stars==4){$a="&#9733; &#9733; &#9733; &#9733; &#9734;";}
                 elseif($pro->stars==5){$a="&#9733; &#9733; &#9733; &#9733; &#9733;";}
-            echo '<small class="col-auto text-muted">'.$a.'</small>';
-            echo '<a class="" href="/'.$pro->id.'/addtocart"><img class="col-3 mr-n4" src="/images/logo/Cart-45.png" alt="Cart">Acheter</a>';
+            echo '<small class="col-auto float-left text-muted">'.$a.'</small>';
+            echo '<a class="float-right" href="/'.$pro->id.'/addtocart"><img class="w-25" src="/images/logo/Cart-45.png" alt="Cart">Acheter</a>';
             echo '</div>';
             echo '</div>';
             echo '</div>';
