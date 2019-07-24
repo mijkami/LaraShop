@@ -4,6 +4,9 @@
     @include('includes.head')
 </head>
 <body>
+    {{-- <div id="preloder">
+		<div class="loader"></div>
+	</div> --}}
     <div id="app">
         @include('includes.header')
         <main class="py-4">
