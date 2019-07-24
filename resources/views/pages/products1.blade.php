@@ -7,12 +7,8 @@
 
       <div class="col-lg-3">
 
-        <h1 class="my-4">Cat Pics Store</h1>
-        <div class="list-group">
-          <a href="/cutecats" class="list-group-item">Chats mignons</a>
-          <a href="/sportscats" class="list-group-item">Chats sportifs</a>
-          <a href="/lolcats" class="list-group-item">LOLCATS</a>
-        </div>
+        <h1 class="my-4">Chats mignons</h1>
+        <p>Retrouvez toutes les chats les plus mignons possibles à travers notre liste de photos sélectionnées avec soin par notre équipe !</p>
 
       </div>
       <!-- /.col-lg-3 -->

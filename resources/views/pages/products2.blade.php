@@ -7,12 +7,8 @@
 
       <div class="col-lg-3">
 
-        <h1 class="my-4">Cat Pics Store</h1>
-        <div class="list-group">
-          <a href="/cutecats" class="list-group-item">Chats mignons</a>
-          <a href="/sportscats" class="list-group-item">Chats sportifs</a>
-          <a href="/lolcats" class="list-group-item">LOLCATS</a>
-        </div>
+        <h1 class="my-4">Chats sportifs</h1>
+        <p>Cette sélection de photo s'adresse à tous les fans de félins actifs ! Retrouvez ici nos chats les plus joueurs et dynamiques :D.</p>
 
       </div>
       <!-- /.col-lg-3 -->
