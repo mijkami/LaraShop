@@ -10,7 +10,15 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-
+                        <li class="nav-item">
+                             <a class="nav-link" href="/cutecats">Chats mignons</a>
+                        </li>
+                        <li class="nav-item">
+                             <a class="nav-link" href="/sportscats">Chats sportifs</a>
+                        </li>
+                        <li class="nav-item">
+                             <a class="nav-link" href="/lolcats">LOLCATS</a>
+                        </li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->

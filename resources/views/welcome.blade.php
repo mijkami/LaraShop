@@ -4,20 +4,9 @@
 <div class="container">
 
     <div class="row">
-
-      <div class="col-lg-3">
-
-        <h1 class="my-4">Cat Pics Store</h1>
-        <div class="list-group">
-          <a href="/cutecats" class="list-group-item">Chats mignons</a>
-          <a href="/sportscats" class="list-group-item">Chats sportifs</a>
-          <a href="/lolcats" class="list-group-item">LOLCATS</a>
-        </div>
-
-      </div>
       <!-- /.col-lg-3 -->
 
-      <div class="col-lg-9">
+      <div class="col-lg-12">
 
         <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -51,7 +40,7 @@
         <div class="row">
         <?php
         foreach ($product as $pro){
-            echo '<div class="col-lg-4 col-md-6 mb-4">';
+            echo '<div class="col-lg-3 col-md-6 mb-4">';
             echo '<div class="card h-100">';
             echo '<a href="#"><img class="card-img-top" src="'.$pro->image_url.'" alt=""></a>';
             echo '<div class="card-body">';
