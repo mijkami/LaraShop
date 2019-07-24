@@ -40,7 +40,7 @@
         <div class="row">
         <?php
         foreach ($product as $pro){
-            echo '<div class="col-lg-3 col-md-6 mb-4">';
+            echo '<div class="col-lg-4 col-md-6 mb-4">';
             echo '<div class="card h-100">';
             echo '<a href="#"><img class="card-img-top" src="'.$pro->image_url.'" alt=""></a>';
             echo '<div class="card-body">';
@@ -50,13 +50,14 @@
             echo '<h5>'.$pro->name.'</h5>';
             echo '<p class="card-text">Type : '.$pro->typ.'<br>Commentaire : '.$pro->comment.'</p>';
             echo '</div>';
-            echo '<div class="card-footer">';
+            echo '<div class="card-footer justify-content-around">';
                 if ($pro->stars==1){$a="&#9733; &#9734; &#9734; &#9734; &#9734;";}
                 elseif($pro->stars==2){$a="&#9733; &#9733; &#9734; &#9734; &#9734;";}
                 elseif($pro->stars==3){$a="&#9733; &#9733; &#9733; &#9734; &#9734;";}
                 elseif($pro->stars==4){$a="&#9733; &#9733; &#9733; &#9733; &#9734;";}
                 elseif($pro->stars==5){$a="&#9733; &#9733; &#9733; &#9733; &#9733;";}
-            echo '<small class="text-muted">'.$a.'</small>';
+            echo '<small class="col-auto text-muted">'.$a.'</small>';
+            echo '<a class="" href="/'.$pro->id.'/addtocart"><img class="col-3 mr-n4" src="/images/logo/Cart-45.png" alt="Cart">Acheter</a>';
             echo '</div>';
             echo '</div>';
             echo '</div>';
