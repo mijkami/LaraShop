@@ -13,3 +13,4 @@ yarn-error.log
 !public/images/.gitkeep
 /images/*
 !images/.gitkeep
+!public/images/logo/
