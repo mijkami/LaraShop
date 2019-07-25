@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Seeder;
 use App\Models\Product;
+use App\Models\User;
 // use Carbon\Carbon;
 
 class DatabaseSeeder extends Seeder
@@ -57,5 +58,11 @@ class DatabaseSeeder extends Seeder
             $product->image_url = $shortlink;
             $product->save();
         }
+
+        $user = new User;
+        $user->name = 'catuser';
+        $user->email = 'catuser@cat.fr';
+        $user->password = bcrypt('catpass');
+        $user->save();
     }
 }
