@@ -15,3 +15,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+	<link rel="stylesheet" href="css/jquery-ui.min.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
+	<link rel="stylesheet" href="css/animate.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
