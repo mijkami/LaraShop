@@ -21,7 +21,7 @@ class DatabaseSeeder extends Seeder
             $product = new Product;
             $product->name = $faker->lastName;
             $product->typ = 'chats mignons';
-            $product->price = rand(12, 35);
+            $product->price = rand(99, 187);
             $product->image_url = $faker->image('public/images',700,400, 'cats');
             $product->stars = rand(1,5);
             $product->comment = $faker->text(20);
@@ -32,7 +32,7 @@ class DatabaseSeeder extends Seeder
             $product = new Product;
             $product->name = $faker->lastName;
             $product->typ = 'chats sportifs';
-            $product->price = rand(27, 49);
+            $product->price = rand(85, 238);
             $product->image_url = $faker->image('public/images', 700, 400, 'cats');
             $product->stars = rand(1, 5);
             $product->comment = $faker->text(20);
@@ -43,7 +43,7 @@ class DatabaseSeeder extends Seeder
             $product = new Product;
             $product->name = $faker->lastName;
             $product->typ = 'LOLCATS';
-            $product->price = rand(275, 499);
+            $product->price = rand(275, 787);
             $product->image_url = $faker->image('public/images', 700, 400, 'cats');
             $product->stars = rand(1, 5);
             $product->comment = $faker->text(20);
