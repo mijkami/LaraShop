@@ -7,13 +7,13 @@
     {{-- <div id="preloder">
 		<div class="loader"></div>
 	</div> --}}
-    <div id="app">
+    <main id="app">
         @include('includes.header')
-        {{-- <main class="py-4"> --}}
+        <section class="pb-5">
             @yield('content')
-        {{-- </main> --}}
-        @include('includes.footer')
-    </div>
+        </section>
+    @include('includes.footer')
+    </main>
     @include('includes.scripts')
 </body>
 </html>
