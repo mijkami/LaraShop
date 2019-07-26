@@ -1,6 +1,6 @@
 <section class="hero-section mt-n5 mb-5">
     <div class="hero-slider owl-carousel">
-        <div class="hs-item set-bg" data-setbg="images/carousel/bg1.jpg">
+        <div class="hs-item set-bg" data-setbg="images/carousel/bg2.jpg">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-6 col-lg-7 text-white">
@@ -13,15 +13,15 @@
                 </div>
                 <div class="offer-card text-white">
                     <span>from</span>
-                    <h2>$23</h2>
-                    <p>SHOP NOW</p>
+                    <h2>$99</h2>
+                    <p>Shop Nyaw</p>
                 </div>
             </div>
         </div>
-        <div class="hs-item set-bg" data-setbg="images/carousel/bg-2.jpg">
+        <div class="hs-item set-bg" data-setbg="images/carousel/bg1a.jpg">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-6 col-lg-7 text-white">
+                    <div class="col-xl-6 col-lg-7 text-black">
                         <span>Dynamic Cats</span>
                         <h2>All the bounces</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus-pendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
@@ -31,8 +31,8 @@
                 </div>
                 <div class="offer-card text-white">
                     <span>from</span>
-                    <h2>$27</h2>
-                    <p>SHOP NOW</p>
+                    <h2>$85</h2>
+                    <p>Shop Nyaw</p>
                 </div>
             </div>
         </div>
