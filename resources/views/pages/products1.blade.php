@@ -7,7 +7,7 @@
 
       <div class="col-lg-3">
 
-        <h1 class="my-4">Chats mignons</h1>
+        <h2 class="my-4">Chats mignons</h2>
         <p>Retrouvez toutes les chats les plus mignons possibles à travers notre liste de photos sélectionnées avec soin par notre équipe !</p>
 
       </div>

@@ -7,7 +7,7 @@
 
       <div class="col-lg-3">
 
-        <h1 class="my-4">LOLCATS</h1>
+        <h3 class="my-4">LOLCATS</h3>
         <p>LOLcats are image macros consisting of humorous photos of cats with superimposed text written in a form of broken English known as lolspeak.</p>
         <p>LOLcat meme gained much of its traction through the weekly ritual of Caturday on 4chan and I Can Has Cheezburger.</p>
       </div>

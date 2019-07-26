@@ -7,7 +7,7 @@
 
       <div class="col-lg-3">
 
-        <h1 class="my-4">Chats sportifs</h1>
+        <h2 class="my-4">Chats sportifs</h2>
         <p>Cette sélection de photo s'adresse à tous les fans de félins actifs ! Retrouvez ici nos chats les plus joueurs et dynamiques :D.</p>
 
       </div>
