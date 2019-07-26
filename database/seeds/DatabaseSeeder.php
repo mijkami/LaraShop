@@ -10,6 +10,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         DB::table('products')->delete();
+        DB::table('users')->delete();
         // $array = array("chats mignons", "chats sportifs", "LOLCATS");
 
         // initialisation de faker
