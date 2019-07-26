@@ -73,11 +73,14 @@
 							<span>E.</span>
 							<p>office@youremail.com</p>
 						</div>
-					</div>
-				</div>
-			</div>
+                    </div>
+                     <p class="text-white text-center mt-5">Copyright ©LOLCATS company</p>
+                </div>
+
+            </div>
+
+
 		</div>
-            <p class="text-white text-center mt-5">Copyright LOLCATS company</p>
 
 
 			</div>
