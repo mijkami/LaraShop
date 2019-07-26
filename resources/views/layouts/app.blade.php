@@ -9,13 +9,11 @@
 	</div> --}}
     <div id="app">
         @include('includes.header')
-        <main class="py-4">
+        {{-- <main class="py-4"> --}}
             @yield('content')
-        </main>
+        {{-- </main> --}}
         @include('includes.footer')
     </div>
-      <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    @include('includes.scripts')
 </body>
 </html>
