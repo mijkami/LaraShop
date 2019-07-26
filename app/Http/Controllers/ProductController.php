@@ -9,11 +9,11 @@ class ProductController extends Controller
 {
     public function index()
     {
-        $product = Product::orderBy('id', 'ASC')->get();
+        // $product = Product::orderBy('id', 'ASC')->get();
         $productCute = Product::where('typ', '=', 'chats mignons')->get();
         $productSport = Product::where('typ', '=', 'chats sportifs')->get();
         $productLol = Product::where('typ', '=', 'LOLCATS')->get();
-        return view('welcome', compact('product', 'productCute', 'productSport', 'productLol'));
+        return view('welcome', compact('productCute', 'productSport', 'productLol'));
     }
     public function index1()
     {
