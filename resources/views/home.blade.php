@@ -20,4 +20,5 @@
         </div>
     </div>
 </div>
+{{-- #TODO : consider redirect to / root and add a flashmessage --}}
 @endsection
