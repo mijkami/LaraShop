@@ -18,7 +18,7 @@
                 elseif($pro->stars==4){$a="&#9733; &#9733; &#9733; &#9733; &#9734;";}
                 elseif($pro->stars==5){$a="&#9733; &#9733; &#9733; &#9733; &#9733;";}
             echo '<small class="col-auto float-left text-muted">'.$a.'</small>';
-            echo '<a class="float-right" href="/'.$pro->id.'/addtocart"><img class="w-25" src="/images/logo/Cart-45.png" alt="Cart">Acheter</a>';
+            echo '<a class="float-right" href="/addtocart/'.$pro->id.'"><img class="w-25" src="/images/logo/Cart-45.png" alt="Cart">Acheter</a>';
             echo '</div>';
             echo '</div>';
             echo '</div>';

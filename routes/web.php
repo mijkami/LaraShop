@@ -23,4 +23,6 @@ Route::get('/cutecats', 'ProductController@index1')->name('cutecats');
 Route::get('/sportscats', 'ProductController@index2')->name('sportscats');
 Route::get('/lolcats', 'ProductController@index3')->name('lolcats');
 
-
+Route::get('addtocart/{id}', 'ProductController@addToCart');
+Route::patch('update-cart', 'ProductController@update')->name('update-cart');
+Route::delete('remove-from-cart', 'ProductController@remove')->name('remove-from-cart');
