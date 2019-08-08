@@ -26,3 +26,6 @@ Route::get('/lolcats', 'ProductController@index3')->name('lolcats');
 Route::get('addtocart/{id}', 'ProductController@addToCart');
 Route::patch('update-cart', 'ProductController@update')->name('update-cart');
 Route::delete('remove-from-cart', 'ProductController@remove')->name('remove-from-cart');
+
+Route::get('/products/pdf', 'ProductController@export_pdf');
+Route::get('exportPDF','ProductController@viewPDF');
